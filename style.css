@@ -16,6 +16,7 @@ body {
     padding-top: 6px;
     color: aliceblue;
     font-weight: bold;
+    font-size: 35px;
 }
 .navbar{
     display: flex;
@@ -28,13 +29,12 @@ body {
 .header-right{
     display: flex;
     margin-left: auto;
-    padding: 0px 100px 0px 0px;
-    
+    padding: 0px 100px 0px 0px;    
 }
 a{
     color: aliceblue;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 25px;
     padding: 5px;
 }
 /* TITLE PART */
@@ -65,15 +65,15 @@ h1{
     opacity: 0.7;
 }
 .main button{
-    background-color: rgb(87, 177, 255);
-    font-weight: bold;
+    background-color: dodgerblue;
+    border-color: white;
     color: white;
     text-align:center;
     display:block;
     padding: 8px;
     width: 80px;
     border-radius: 7px; 
-    border-style: solid;  
+    border-style:solid;  
 }
 
 /* MAIN GRID BOXES */
@@ -149,7 +149,7 @@ h1{
     background-color: dodgerblue;
     font-family: 'Roboto', arial;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     margin-left: 150px ;
     padding:5px 15px;
